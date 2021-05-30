@@ -1,0 +1,52 @@
+@media screen and (min-width: 769px) {
+  .main {
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+  }
+
+  .title {
+    max-width: 640px;
+  }
+  .game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: unset;
+  }
+  .statbar {
+    justify-content: center;
+  }
+  .board {
+    border: solid 5px#121212;
+    .tile {
+      border: solid 2px#121212;
+      border-radius: 5px;
+      background-color: #e9b07b;
+      width: 5rem;
+      height: 5rem;
+      color:  #e9b07b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      cursor: pointer;
+      &.dark {
+        background-color:#58493b;
+      }
+      &-img {
+        width: 60%;
+        height: auto;
+        fill: #fff;
+      }
+    }
+  }
+
+  .window {
+    max-width: 360px;
+  }
+
+  .toolbar {
+    display: none;
+  }
+}
