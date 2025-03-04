@@ -5,4 +5,4 @@ Reactを使ったマインスイーパー
 # Author
 popoyama
 # DEMO
-https://app.popos.work/minesweeper/
+https://mine-react.p-p.dev/
