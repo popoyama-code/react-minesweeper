@@ -5,7 +5,7 @@ const Layout = ({children, ...props}) => {
   return (
     <StyledLayout {...props}>
       {children}
-      <StyledCopyright>©popos.work 2021</StyledCopyright>
+      <StyledCopyright>©p-p.dev 2025</StyledCopyright>
     </StyledLayout>
   )
 }
